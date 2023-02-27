@@ -1,0 +1,54 @@
+body {
+	background : url(96.jpg);
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+/* Пытался поставить вначале p., не помогло :( */
+
+
+.yi{
+	width: 300px;
+	height: 500px;
+}
+
+
+
+
+
+.tle {
+margin: 0 25% 0 25%;
+}
+
+
+
+
+.pi{
+	background-color: #FDF5E6;
+	width:500px;
+	
+	padding: 10px;
+	border-radius: 25px;
+	font-size: 20px;
+}
+
+.pil {
+	display: flex;
+	justify-content:flex-end
+}
+
+
+
+
+.flex-container {
+	display: flex; /* гибкий || встроенный гибкий */
+	justify-content: flex-start;  /*выравнивает элемент горизонтально flex-start: элементы выравниваются по левой стороне контейнер 
+									  flex-end: элементы выравниваются по правой стороне контейнера.
+									  center: элементы выравниваются по центру контейнера.
+									  space-between: элементы отображаются с одинаковыми отступами между ними.
+									  space-around: элементы отображаются с одинаковыми отступами вокруг них. */
+	
+	
+	
+	  flex-wrap:wrap;/* 1 значение - flex-direction, 2 значение - flex-wrap */
+	  gap: 5px; /* отступы */
+  
+  }
